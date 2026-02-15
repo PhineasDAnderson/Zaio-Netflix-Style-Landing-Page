@@ -1,0 +1,220 @@
+<!--html boilerplate-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Inspired Landing Page for Zaio.io Content</title>
+
+    
+    <!--Google Fonts for Netflix-style logo-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+    
+    <!--Custon CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome for social media icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="assets/Photos/Zaio.Favicon.png">
+</head>
+
+<body>
+    <!--Hero Section with video background and navbar-->
+    <header>
+        <!--Top video nav + hero section-->
+        <div class="hero-video-container">
+            <video autoplay muted loop class="hero-video">
+                <source src="assets/Videos/bottom.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+                
+                <!--Navbar-->
+            <nav class="navbar">
+            <!--Zaio logo style inspired by Netflix style-->
+            <div class="logo-text">ZAIO</div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Bootcamp</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="https://www.zaio.io/app/login">Sign In</a></li>
+                </ul>
+            </nav>
+               <!--Hero overlay content-->
+                    <div class="hero-overlay">
+                        <h1>Unlimited learning, projects, and more.</h1>
+                    <h2>Start your journey today. Cancel anytime.</h2>
+                    
+                    <!--Email Signup Form-->
+                    <form>
+                        <h3>Ready to Learn? Enter your email to create or restart your membership.</h3>
+                        <div class="input-box">
+                            <input type="email" name="email" placeholder="Email Address" required>
+                            <button>Get Started</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </header>
+
+    <main>                          <!--Popular Bootcamps on Zaio + FAQ-->
+        <!--Bootcamp Posters Section-->
+            <h2>Popular Bootcamps On Zaio</h2>
+            <!--Bootcamp Poster Section-->
+            <div class="bootcamp-carousel">
+                <!--1.Full Stack AI Engineer-->
+                <a href="https://zaio.io/bootcamps/full-stack-ai-engineer" target="_blank" class="poster">
+                    <div class="poster-content">
+                    <img src="assets/Photos/Full stack AI.jpg" alt="Fullstack AI Engineer">
+                    <div class="poster-overlay">
+                        <span class="poster-rank">1</span>
+                    <h3>Full Stack AI Engineer</h3>
+                    <p>Build agentic web applications using LLMs, Langchain, NBN, and more</p>
+                    </div>
+                </div>
+                </a>
+
+                    <!--2. Fullstack Web Development-->
+                    <a href="https://zaio.io/bootcamps/fullstack-web-development" target="_blank" class="poster">
+                        <div class="poster-content">
+                        <img src="assets/Photos/FullStackWeb.jpg" alt="Fullstack Web Development">
+                        <div class="poster-overlay">
+                            <span class="poster-rank">2</span>
+                        <h3>Fullstack Web Development</h3>
+                        <p>Build dynamic websites and applications that solve real-world problems.</p>
+                        </div>
+                    </div>
+                    </a>
+
+                        <!--3. Data Science-->
+                        <a href="https://zaio.io/bootcamps/data-science" target="_blank" class="poster">
+                            <div class="poster-content">
+                            <img src="assets/Photos/Data Science.jpg" alt="Data Science">
+                            <div class="poster-overlay">
+                                <span class="poster-rank">3</span>
+                            <h3>Data Science</h3>
+                            <p>Master Python, machine learning, data analysis, and SQL.</p>
+                        </div>
+                    </div>
+                    </a>
+
+                            <!--4. CyberSecurity-->
+                            <a href="https://zaio.io/bootcamps/cybersecurity" target="_blank" class="poster">
+                                <div class="poster-content">
+                                <img src="assets/Photos/Cybersecurity.jpg" alt="Cybersecurity">
+                                <div class="poster-overlay">
+                                    <span class="poster-rank">4</span>
+                                <h3>Cybersecurity</h3>
+                                <p>Master Cybersecurity fundamentals and best practices.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <!--FAQ Section-->
+                    <section class="faq-section">
+                        <h2>Frequently Asked Questions</h2>
+                        <div class="faq-container">
+
+                            <details class="faq-item">
+                                <summary>Do I need prior coding experience?</summary>
+                                <p>No, our bootcamps are designed for beginners. We teach you everything from the ground up.</p>
+                            </details>
+                            
+                            <details class="faq-item">
+                                <summary>How do the live classes work?</summary>
+                                <p>We offer live classes twice a week, with recordings available if you miss a session.</p>
+                            </details>
+
+                            <details class="faq-item">
+                                <summary>How flexible are the payment options?</summary>
+                                <p>You can pay upfront, in installments, or finance through our partners.</p>
+                            </details>
+
+                            <details class="faq-item">
+                                <summary>What happens if I fall behind?</summary>
+                                <p>Don't Worry! Our 24/7 tutor support and recorded sessions help you catch up.</p>
+                            </details>
+
+                            <details class="faq-item">
+                                <summary>What career outcomes can I expect?</summary>
+                                <p>Graduates secure roles as developers, data scientists and more, with job hunting support included.</p>
+                            </details>
+
+                        </div>
+                    </section>
+    </main>
+    
+   <footer>
+    <!--Footer video background-->
+    <div class="footer-video">
+        <video autoplay muted loop class="bottom-video">
+            <source src="assets/Videos/top.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!--Overlay content on top of the video-->
+        <div class="footer-overlay">
+            <h2>Keep Learning Anytime, Anywhere</h2>
+
+            <div class="footer-columns">
+
+                <!--Learn Collapsible Section-->
+                <div class="footer-col">
+                    <details>
+                        <summary>LEARN</summary>
+                        <ul>
+                            <li><a href="#">Full Stack Web Development</a></li>
+                            <li><a href="#">Data Science</a></li>
+                            <li><a href="#">Cybersecurity</a></li>
+                            <li><a href="#">Student Login</a></li>
+                        </ul>
+                    </details>
+                </div>
+
+                <!--PLANS Collapsible Section-->
+                <div class="footer-col">
+                   <details>
+                    <summary>PLANS</summary>
+                    <ul>
+                        <li><a href="#">For Individuals</a></li>
+                        <li><a href="#">For Business</a></li>
+                        <li><a href="#">Tuition & Financing</a></li>
+                    </ul>
+                    </details>
+                </div>
+
+                <!--FAQ Collapsible Section-->
+                <div class="footer-col">
+                    <details>
+                    <summary>FAQ</summary>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Book a Consultation</a></li>
+                        <li><a href="#">Become an Affiliate</a></li>
+                        <li><a href="#">Virtual Graduation</a></li>
+                    </ul>
+                    </details>
+                </div>
+
+                <!--Social Links-->
+                <div class="footer col">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedIn"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</footer>    
+</body>
+</html>
